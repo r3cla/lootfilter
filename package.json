@@ -1,0 +1,60 @@
+{
+  "name": "lootfilter.tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@radix-ui/react-alert-dialog": "^1.1.4",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-toast": "^1.2.4",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.9.0",
+    "sonner": "^1.7.1",
+    "tailwind-merge": "^2.6.0",
+    "typescript": "^4.9.5",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react-select": "^5.0.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
