@@ -239,10 +239,13 @@ export function RuleEditor({ initialData, onSave, onCancel }: Props) {
               onChange={(e) =>
                 setFormData({
                   ...formData,
-                  minimapIcon: {
-                    ...formData.minimapIcon,
-                    color: e.target.value,
-                  },
+                  minimapIcon: e.target.value 
+                    ? {
+                        size: formData.minimapIcon?.size ?? 0,
+                        color: e.target.value as typeof EFFECT_COLORS[number],
+                        shape: formData.minimapIcon?.shape ?? MINIMAP_SHAPES[0],
+                      }
+                    : undefined
                 })
               }
               disabled={!formData.minimapIcon?.size}
@@ -261,9 +264,10 @@ export function RuleEditor({ initialData, onSave, onCancel }: Props) {
                 setFormData({
                   ...formData,
                   minimapIcon: {
-                    ...formData.minimapIcon,
-                    shape: e.target.value,
-                  },
+                    size: formData.minimapIcon?.size ?? 0,
+                    color: formData.minimapIcon?.color ?? EFFECT_COLORS[0],
+                    shape: e.target.value as typeof MINIMAP_SHAPES[number],
+                  }
                 })
               }
               disabled={!formData.minimapIcon?.size}
@@ -289,7 +293,7 @@ export function RuleEditor({ initialData, onSave, onCancel }: Props) {
                   ...formData,
                   beamEffect: e.target.value
                     ? {
-                        color: e.target.value,
+                        color: e.target.value as typeof EFFECT_COLORS[number],
                         temporary: formData.beamEffect?.temporary || false,
                       }
                     : undefined,

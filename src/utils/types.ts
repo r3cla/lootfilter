@@ -1,4 +1,4 @@
-import type { MinimapIcon, BeamEffect } from './filterCustomization';
+import type { MinimapIcon, BeamEffect, EffectColor } from './filterCustomization';
 
 export type RGBColor = {
   r: number;
