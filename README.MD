@@ -11,7 +11,7 @@ It's a loot filter generator for PoE 2 (no compatibility for PoE 1). It is very 
 - "Open In.." button
 - Add extra filtering options such as:
   - BaseDefencePercentile
-  - StackSize (ASAP)
+  - StackSize
   - BaseArmour, BaseEnergyShield, BaseEvasion(??)
 
 ## Contributing
