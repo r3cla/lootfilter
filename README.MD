@@ -4,10 +4,13 @@ This is a "for fun" project for Path of Exile 2 inspired by the great work of Ne
 
 It's a loot filter generator for PoE 2 (no compatibility for PoE 1). It is very straightforward and barebones but you still may encounter bugs in the early stages, this is my first time working with loot filters and I am learning as I go.
 
-To-do list:
+## To-do list:
 - Decide how to implement Continue rule toggle for cosmetic rules
 - Refactoring where necessary
-- TBA
+- Add extra filtering options such as:
+  - BaseDefencePercentile
+  - StackSize
+  - BaseArmour, BaseEnergyShield, BaseEvasion
 
 ## Contributing
 
