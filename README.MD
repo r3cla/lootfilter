@@ -22,6 +22,34 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
    ```
 
 2. Install Dependencies
+   ```bash
+   lootfilter.tech@1.0.0
+   ├── @babel/plugin-proposal-private-property-in-object@7.21.11
+   ├── @dnd-kit/core@6.3.1
+   ├── @dnd-kit/sortable@10.0.0
+   ├── @dnd-kit/utilities@3.2.2
+   ├── @radix-ui/react-alert-dialog@1.1.4
+   ├── @radix-ui/react-select@2.1.4
+   ├── @radix-ui/react-toast@1.2.4
+   ├── @types/react-dom@18.3.5
+   ├── @types/react-select@5.0.1
+   ├── @types/react@18.3.18
+   ├── autoprefixer@10.4.20
+   ├── class-variance-authority@0.7.1
+   ├── clsx@2.1.1
+   ├── lucide-react@0.469.0
+   ├── postcss@8.4.49
+   ├── react-dom@18.2.0
+   ├── react-router-dom@7.1.1
+   ├── react-scripts@5.0.1
+   ├── react-select@5.9.0
+   ├── react@18.2.0
+   ├── sonner@1.7.1
+   ├── tailwind-merge@2.6.0
+   ├── tailwindcss@3.4.17
+   ├── typescript@4.9.5
+   └── zustand@5.0.3
+   ```
 
 3. Start Development Server
    ```bash
