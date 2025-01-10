@@ -6,7 +6,7 @@ It's a loot filter generator for PoE 2 (no compatibility for PoE 1). It is very 
 
 ## To-do list:
 - Decide how to implement Continue rule toggle for cosmetic rules
-- A set of quick filter options (such as currency stacks)
+- A set of quick filter options (such as currency stacks, highlighting chance bases etc.)
 - Allow importing filters
 - "Open In.." button to export to editors like DivineView as an alternative to Copying or Downloading the file
 - Add extra filtering options such as:
