@@ -15,7 +15,8 @@ export function generateFilterFile(rules: FilterRule[]): string {
       
       // Base Type
       if (rule.baseType && rule.baseType.length > 0) {
-        lines.push(`    BaseType ${rule.baseType.join(' ')}`);
+        const quotedBaseTypes = rule.baseType.map(type => `"${type}"`)
+        lines.push(`    BaseType ${quotedBaseTypes.join(' ')}`);
       }
       
       // Rarity
