@@ -42,9 +42,9 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
    ```
 
 2. Make your changes and test that they work
-  ```bash
-  Local dev environment is great for this
-  ```
+   ```bash
+   Local dev environment is great for this
+   ```
 
 3. Commit your changes:
    ```bash
