@@ -56,19 +56,6 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
 
 5. Create a Pull Request through GitHub
 
-## Development Guidelines
-
-- Write descriptive commit messages
-- Please test your changes before requesting a pull
-
-## Testing
-
-Run the development server and test your changes with different rule configurations. Key areas to test:
-- Rule creation and editing
-- Drag and drop functionality (for the RuleList, which is left side of the app)
-- Filter generation
-- UI responsiveness
-
 ## Need Help?
 
 If you have questions or need help, please:
