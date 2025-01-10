@@ -23,12 +23,7 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
 
 2. Install Dependencies
    ```bash
-   npm install react react-dom typescript @types/react @types/react-dom react-scripts
-   npm install zustand @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
-   npm install lucide-react sonner
-   npm install -D tailwindcss postcss autoprefixer
-   npm install @radix-ui/react-select @radix-ui/react-alert-dialog @radix-ui/react-toast
-   npm install class-variance-authority clsx tailwind-merge
+   (these are found in package.json)
    ```
 
 3. Start Development Server
