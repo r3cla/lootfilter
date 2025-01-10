@@ -25,7 +25,7 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
    ```
 
 2. Install Dependencies
-   ```bash
+   ```
    check the package file
    ```
 
@@ -42,7 +42,7 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
    ```
 
 2. Make your changes and test that they work
-   ```bash
+   ```
    Local dev environment is great for this
    ```
 
