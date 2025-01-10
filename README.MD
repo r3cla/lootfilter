@@ -22,9 +22,6 @@ Contributions are always welcome! Follow these handy dandy tips to get started:
    ```
 
 2. Install Dependencies
-   ```bash
-   (these are found in package.json)
-   ```
 
 3. Start Development Server
    ```bash
