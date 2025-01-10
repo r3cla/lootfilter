@@ -110,19 +110,23 @@ export default function Tools() {
       </main>
 
       <footer className="bg-black border-t border-red-900 py-4">
-        <div className="container mx-auto px-4 flex justify-between items-center text-gray-400 text-sm">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-sm gap-2">
           <span>© 2025 LootFilter.tech</span>
-          <a
-            href="https://github.com/nathan-addison"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-200 transition-colors duration-200"
-            aria-label="GitHub Profile"
-          >
-            <Github size={20} />
-          </a>
+          <span><small>App is in beta - You may encounter bugs. This is a fan-made project and is not associated with Grinding Gear Games.</small></span>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://github.com/r3cla/lootfilter"
+              className="hover:text-gray-200 transition-colors duration-200"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View source<Github className="inline ml-1" size={20} />
+            </a>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     </div>
   );
 }
