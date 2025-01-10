@@ -8,7 +8,7 @@ It's a loot filter generator for PoE 2 (no compatibility for PoE 1). It is very 
 - Decide how to implement Continue rule toggle for cosmetic rules
 - A set of quick filter options (such as currency stacks)
 - Allow importing filters
-- "Open In.." button to export to editors like DivineView instead of Copying or Downloading the file
+- "Open In.." button to export to editors like DivineView as an alternative to Copying or Downloading the file
 - Add extra filtering options such as:
   - BaseDefencePercentile
   - StackSize
