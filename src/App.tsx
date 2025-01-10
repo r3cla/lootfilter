@@ -62,16 +62,24 @@ export default function App() {
       <Toaster position="top-right" />
       <header className="bg-black border-b border-red-900">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center space-x-3">
-            <img
-              src="/applogo.png"
-              alt="Logo"
-              className="h-14 w-14 object-cover rounded-full"
-            />
-            <div>
-              <h1 className="text-2xl font-bold">LootFilter.tech</h1>
-              <h2 className="text-sm text-gray-400">Loot Filter Generator for Path of Exile 2</h2>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-3">
+              <img
+                src="/applogo.png"
+                alt="MonkeFilter Logo"
+                className="h-10 w-10 object-cover rounded-full"
+              />
+              <div>
+                <h1 className="text-2xl font-bold">LootFilter.tech</h1>
+                <h2 className="text-sm text-gray-400">Filter Generator for Path of Exile 2</h2>
+              </div>
             </div>
+            <a
+              href="/Tools"
+              className="px-3 py-1.5 bg-red-900 text-gray-200 rounded border border-red-700 shadow-lg hover:bg-red-800 hover:border-red-600 transition-colors duration-200"
+            >
+              Community Tools
+            </a>
           </div>
         </div>
       </header>
@@ -80,7 +88,6 @@ export default function App() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div className="flex justify-between items-center">
-              <h2 className="text-lg font-medium"></h2>
               {!isAddingRule && !editingRule && (
                 <div className="flex space-x-2">
                 <button
@@ -130,6 +137,7 @@ export default function App() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-sm gap-2">
           <span>© 2025 LootFilter.tech</span>
+          <span><small>App is in beta - You may encounter bugs. This is a fan-made project and is not associated with Grinding Gear Games.</small></span>
           <div className="flex items-center gap-4">
             <a
               href="https://github.com/r3cla/lootfilter"
